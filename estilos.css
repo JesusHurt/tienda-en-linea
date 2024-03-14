@@ -1,0 +1,97 @@
+
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+
+}
+
+
+     header {
+            background-color: #ffd8f1;
+            color: #ffffff;
+            padding: 20px 0;
+            text-align: center;
+            font-style: italic; /* Aplicar estilo cursiva */
+            
+            
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        /* Estilos para la barra de navegación */
+        nav {
+            background-color: #ff7acc;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: line-through;
+            margin: 0 10px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+
+         img {
+            width: 250px; /* Ancho deseado */
+            height: 200px; /* Altura automática para mantener la proporción */
+        }
+
+  
+        .producto {
+           
+            background-size: 20px 20px;
+            background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+            width: 300px; /* Ancho del contenedor del producto */
+            float: right; /* Mover el contenedor hacia el lado derecho */
+            margin-right: 700px; /* Margen izquierdo para separar del resto del contenido */
+            margin-top: 150px;
+        }
+/* Estilos para el contenido principal */
+.main-content {
+    margin-right: 350px; /* Deja espacio suficiente para el producto en el lado derecho */
+}
+
+.button {
+    width: 200px;
+    height: 40px;
+    background-image: linear-gradient(rgb(243, 145, 243), rgb(255, 94, 207));
+    border: none;
+    border-radius: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    display: right;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+    box-shadow: 1px 3px 0px rgb(255, 255, 255);
+    transition-duration: .3s;
+  }
+  
+  .cartIcon {
+    width: 14px;
+    height: fit-content;
+  }
+  
+  .cartIcon path {
+    fill: rgb(255, 255, 255);
+  }
+  
+  .button:active {
+    transform: translate(2px ,0px);
+    box-shadow: 0px 1px 0px rgb(151, 135, 223);
+    padding-bottom: 1px;
+    
+  }
+  
+  
+
